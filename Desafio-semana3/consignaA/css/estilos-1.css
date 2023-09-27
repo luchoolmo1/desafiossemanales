@@ -1,0 +1,111 @@
+* {
+    background-color: rgb(243, 44, 101);
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    background-color: rgb(200, 39, 93);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+h2 {
+    background-color: inherit;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+img { width: 100%;
+     margin-top: 1%;
+
+}
+
+h3 {
+    text-align: right;
+    color: rgb(139, 57, 78);
+    border-bottom: dotted rgb(200, 39, 93);
+    background-color: inherit;
+}
+
+article {
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-radius: 3px;
+
+
+}
+
+p {
+    background-color: inherit;
+}
+
+.p_comprar1,
+.p_comprar2,
+.volver1 {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0.5px;
+    margin-bottom: 0.5%;
+
+}
+
+
+section {
+    background-color: rgb(200, 39, 93);
+    padding: 1%;
+    border-radius: 3px;
+
+
+}
+
+
+
+a {
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+
+
+
+footer {
+    background-color: rgb(245, 112, 150);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.8%;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.p-footer {
+    text-align: center;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}

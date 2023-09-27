@@ -1,0 +1,105 @@
+* {
+    background-color: rgb(33, 54, 90);
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mi propio estilo;
+    src: url(../fonts/Bobaland.ttf);
+}
+
+
+h1 {
+    color: white;
+    background-color: rgb(23, 29, 37);
+    text-align: center;
+    font-family: mi propio estilo, cursive;
+    text-transform: uppercase;
+    padding: 3%;
+    padding-bottom: 1%;
+    margin-top: -2%;
+    margin-left: -5%;
+    margin-right: -2%;
+}
+
+h2 {
+    color: white;
+    border-bottom: groove;
+    font-family: mi propio estilo, cursive;
+    text-decoration: double;
+
+}
+
+
+
+h3 {
+    font-style: italic;
+    font-weight: 1100;
+    color: white;
+
+}
+
+article {
+    text-align: center;
+
+}
+
+img {
+    box-shadow: 1px 10px 25px rgba(255, 255, 255, 0.5);
+    text-align: center;
+
+}
+
+a { 
+        background-color: rgb(0,0,0);
+        color: white;
+        text-decoration: none;
+        padding: 8px;
+        text-align: center;
+        font-family: mi propio estilo,cursive;
+        border-radius: 8px;
+    }
+
+a:hover {
+    background-color: rgb(4,12,153);
+}
+
+
+.p_comprar1,
+.p_comprar2,
+.volver1 {
+    text-align: center;
+    display: block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 0.5px;
+    margin-bottom: 0.5%;
+
+}
+
+
+p {
+    color: white;
+    font-family: mi propio estilo;
+    font-size: larger;
+}
+
+
+footer {
+    background-color: rgb(46, 125, 192);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0.8%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.p-footer {
+    text-align: center;
+    display: block;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: inherit;
+
+}

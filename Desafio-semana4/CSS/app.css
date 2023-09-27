@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(31, 138, 136);
+    margin: 1vw;
+
+}
+
+h1 {
+    color: rgb(231, 198, 63);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5em;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    margin: 2px;
+    padding: 2vh;
+
+}
+
+.galeria {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.card-image {
+    width: 100%;
+    border: 10px solid white;
+
+}
+
+.card {
+    margin: 5px 5px;
+}

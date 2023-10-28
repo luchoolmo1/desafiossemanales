@@ -1,0 +1,148 @@
+/*
+Paleta de colores elegidos (Se agregaron variaciones con trasparencias):
+#00000066 Negro
+#90caf933 Azul fuerte
+#90caf980 Celeste
+#00ffffab Celeste (turqueza)
+#bbdefb Celeste claro
+*/
+
+
+@font-face {
+    font-family: Marcellus SC;
+    src: url(../fonts/MarcellusSC-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: grid;
+    justify-content: center;
+    background-image: linear-gradient(to top, #fff1eb 0%, hsl(199, 87%, 83%) 100%);
+    box-shadow: 4px 4px 4px #fff1eb, 4px 4px 4px hsl(199, 87%, 83%);
+}
+
+header h1 {
+    font-family: Marcellus SC;
+    font-size: 5vw;
+    color: #1A1B2B;
+    text-shadow: 1px 0 1px rgba(255, 0, 0, 0.67), 1px 0 1px hsla(180, 100%, 50%, 0.671);
+}
+
+.contenedor-body {
+    background-image: url(../image/hombre-corriendo.jpg);
+    height: fit-content;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    box-shadow: 3px 3px 7px inset #00000066;
+    font-family: Marcellus SC;
+    color: #1A1B2B;
+    text-shadow: 1px 0 1px rgba(255, 0, 0, 0.67), 1px 0 1px rgba(0, 255, 255, 0.67);
+}
+
+fieldset {
+
+    border-radius: 1vw;
+    color: hsl(208, 100%, 97%);
+    font-size: 2vw;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 70vw;
+    padding: 4vw;
+
+}
+
+form {
+    border: 1px solid transparent;
+    width: 100%;
+    padding: 8vw;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=number],
+select,
+textarea {
+    width: 100%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    margin-right: 2vw;
+    padding: 1vw;
+    background-color: hsla(207, 90%, 77%, 0.2);
+    border-radius: 1vw;
+    color: rgba(26, 27, 43, 3);
+
+}
+
+select {
+    text-align: left;
+    background-color: rgba(144, 202, 249, 0.2);
+    color: rgba(26, 27, 43, 3);
+}
+
+label:hover {
+    text-shadow: 4px 2px 5px goldenrod;
+}
+
+select:focus {
+    background-color: hsla(207, 90%, 77%, 0.502);
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgba(144, 202, 249, 0.5);
+
+}
+
+textarea {
+    resize: none;
+}
+
+legend {
+    padding-top: 3vh;
+}
+
+legend:hover {
+    text-shadow: 8px 6px 5px gold;
+}
+
+label {
+    padding: 0.5vw;
+}
+
+input[type=radio] {
+    margin-right: 1vw;
+}
+
+.left-align {
+    display: grid;
+}
+
+.botones, .change {
+    text-decoration: 1px solid transparent;
+    border-radius: 1vw;
+    width: 30vw;
+    margin: 2vw;
+    color: hsl(207, 89%, 86%);
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+    font-family: Marcellus SC;
+}
+
+.change:hover {
+    background-color: rgba(144, 202, 249, 0.5);
+    color: black
+}
